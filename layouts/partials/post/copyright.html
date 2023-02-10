@@ -1,8 +1,17 @@
 {{ if or .Params.postMetaInFooter (and .Site.Params.postMetaInFooter (ne .Params.postMetaInFooter false)) -}}
 <div class="post-copyright">
-  <p class="copyright-item">
+  <p class="copyright-item" style="position: relative;">
     <span class="item-title">{{ T "author" }}</span>
-    <span class="item-content">{{ if .Params.author }}{{ .Params.author | safeHTML }}{{ else }}{{ .Site.Author.name | safeHTML }}{{ end }}</span>
+    <span class="item-content">
+      {{ if .Params.author }}{{ .Params.author | safeHTML }}{{ else }}{{ .Site.Author.name | safeHTML }}{{ end }}
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0" style="position: absolute; right: 0;">
+        CC BY-NC-ND 4.0
+        <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="/img/cc.svg">
+        <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="/img/by.svg">
+      </a>
+      <!-- https://chooser-beta.creativecommons.org
+      https://creativecommons.org/faq/#what-are-the-international-unported-creative-commons-licenses-and-why-does-cc-offer-ported-licenses -->
+    </span>
   </p>
   <p class="copyright-item">
     <span class="item-title">{{ T "lastMod" }}</span>
