@@ -1,102 +1,109 @@
 # ===== title =====
 archive:
-  other: "Archive"
+    other: "Archive"
 
 tags:
-  other: "Tags"
+    other: "Tags"
 
 categories:
-  other: "Categories"
+    other: "Categories"
 
 # ===== footer =====
 powered:
-  other: "Powered by %s"
+    other: "Powered by %s"
 
 theme:
-  other: "Theme"
+    other: "Theme"
 
 siteUV:
-  other: "site uv: %s"
+    other: "site uv: %s"
 
 sitePV:
-  other: "site pv: %s"
+    other: "site pv: %s"
 
 pagePV:
-  other: "%s times read"
+    other: "%s times read"
 
 # ===== post =====
 prevPage:
-  other: "Prev"
+    other: "Prev"
 
 nextPage:
-  other: "Next"
+    other: "Next"
 
 prevPost:
-  other: "Prev"
+    other: "Prev"
 
 nextPost:
-  other: "Next"
+    other: "Next"
 
 toc:
-  other: "Contents"
+    other: "Contents"
 
 readMore:
-  other: "Read more..."
+    other: "Read more..."
 
 reward:
-  other: "Reward"
+    other: "Reward"
 
 rewardAlipay:
-  other: "alipay"
+    other: "alipay"
 
 rewardWechat:
-  other: "wechat"
+    other: "wechat"
 
 wordCount:
-  one: "{{ .Count }} word"
-  other: "{{ .Count }} words"
+    one: "{{ .Count }} word"
+    other: "{{ .Count }} words"
 
 readingTime:
-  one: "{{ .Count }} min read"
-  other: "{{ .Count }} mins read"
+    one: "{{ .Count }} min read"
+    other: "{{ .Count }} mins read"
 
 outdatedInfoWarningBefore:
-  other: "[NOTE] Updated "
+    other: "[NOTE] Updated "
 
 outdatedInfoWarningAfter:
-  other: ". This article may have outdated content or subject matter."
+    other: ". This article may have outdated content or subject matter."
 
 # ===== content license =====
 author:
-  other: "Author"
+    other: "Author"
 
 lastMod:
-  other: "LastMod"
+    other: "LastMod"
 
 markdown:
-  other: "Markdown"
+    other: "Markdown"
 
 seeMarkDown:
-  other: "The Markdown version »"
+    other: "The Markdown version »"
 
 license:
-  other: "License"
+    other: "License"
 
 # ===== counter =====
 archiveCounter:
-  one: "{{ .Count }} Post In Total"
-  other: "{{ .Count }} Posts In Total"
+    one: "{{ .Count }} Post In Total"
+    other: "{{ .Count }} Posts In Total"
 
 tagCounter:
-  one: "{{ .Count }} Tag In Total"
-  other: "{{ .Count }} Tags In Total"
+    one: "{{ .Count }} Tag In Total"
+    other: "{{ .Count }} Tags In Total"
 
 zeroTagCounter:
-  other: "No tags"
+    other: "No tags"
 
 categoryCounter:
-  one: "{{ .Count }} Category In Total"
-  other: "{{ .Count }} Categories In Total"
+    one: "{{ .Count }} Category In Total"
+    other: "{{ .Count }} Categories In Total"
 
 zeroCategoryCounter:
-  other: "No categories"
+    other: "No categories"
+
+seriesCounter:
+    one: "{{ .Count }} Series In Total"
+    other: "{{ .Count }} Series In Total"
+
+zeroSeriesCounter:
+    other: "No series"
