@@ -1,4 +1,4 @@
-{{ if or .Params.postMetaInFooter (and .Site.Params.postMetaInFooter (ne .Params.postMetaInFooter false)) -}}
+{{ if and (not .Params.hidePostCopyright) (or .Params.postMetaInFooter (and .Site.Params.postMetaInFooter (ne .Params.postMetaInFooter false))) -}}
 <div class="post-copyright">
   <p class="copyright-item" style="position: relative;">
     <span class="item-title">{{ T "author" }}</span>

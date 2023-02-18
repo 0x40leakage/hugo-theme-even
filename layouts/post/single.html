@@ -51,6 +51,7 @@
       {{- end -}}
 
       <!-- Post Pagination -->
+      {{ if not (ne .Params.hidePostNav false) -}}
       <nav class="post-nav">
         {{ with .NextInSection -}}
           <a class="prev" href="{{ .RelPermalink }}">
@@ -67,6 +68,7 @@
           </a>
         {{- end }}
       </nav>
+      {{- end }}
     </footer>
   </article>
 {{- end }}
